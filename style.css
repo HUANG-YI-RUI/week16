@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+/* 全域設定 */
+body { 
+    font-family: "微軟正黑體", sans-serif; 
+    line-height: 1.6; 
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    margin: 0;
+}
+
+/* 主容器 */
+.wrap { 
+    max-width: 800px; 
+    margin: auto; 
+    background: #ffffff; 
+    padding: 20px; 
+    border: 1px solid #dddddd; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 標題與圖片 */
+h1 { color: #2c3e50; text-align: center; }
+.banner img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+/* 活動資訊區塊 */
+.info-box { 
+    background: #ecf0f1; 
+    padding: 15px; 
+    border-radius: 5px; 
+    margin: 20px 0;
+}
+
+/* 下載區域與按鈕 */
+.download-zone { 
+    margin-top: 30px; 
+    text-align: center; 
+    border-top: 2px dashed #bdc3c7; 
+    padding-top: 20px; 
+}
+
+.btn { 
+    display: inline-block; 
+    padding: 12px 25px; 
+    margin: 10px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: 0.3s;
+}
+
+.btn-pdf { background-color: #e74c3c; } /* 紅色 */
+.btn-word { background-color: #3498db; } /* 藍色 */
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
